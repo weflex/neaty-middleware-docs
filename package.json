@@ -1,0 +1,31 @@
+{
+  "name": "neaty-middleware-docs",
+  "version": "1.0.0",
+  "description": "Generate or parse your neaty middleware.json into markdown docs",
+  "main": "middleware-docs.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "neaty-middleware-docs": "./cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/weflex/neaty-middleware-docs.git"
+  },
+  "keywords": [
+    "docs",
+    "middleware",
+    "neaty",
+    "loopback"
+  ],
+  "author": "Yorkie Liu <yorkiefixer@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weflex/neaty-middleware-docs/issues"
+  },
+  "homepage": "https://github.com/weflex/neaty-middleware-docs#readme",
+  "dependencies": {
+    "minimist": "^1.2.0"
+  }
+}
